@@ -12,13 +12,9 @@ public class Avaliação{
         this.detalhes = detalhes;
     }
 
-    @Override
+     @Override
     public String toString() {
-        return "Avaliação{" +
-                "nome='" + nome + '\'' +
-                ", nota=" + nota +
-                ", detalhes='" + detalhes + '\'' +
-                '}';
+        return "Avaliação do cuidador! " + "\nNome do cliente: " + nome + "\nAvaliação do serviço: " + nota +  "\nObservações: " + detalhes;
     }
 
     public String getNome() {
